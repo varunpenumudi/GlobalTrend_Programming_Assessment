@@ -21,4 +21,4 @@ if __name__ == "__main__":
         [12, 5, 6]
     ]
     transpose = get_transpose(matrix)
-    print(transpose)
+    print(*transpose, end="\n")
